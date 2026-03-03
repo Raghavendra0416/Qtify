@@ -1,0 +1,20 @@
+.tabs {
+    margin-bottom: 16px;
+}
+
+.indicator {
+    background-color: var(--color-primary) !important;
+}
+
+.tab {
+    color: white !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px !important;
+    text-transform: none !important;
+    /* prevent uppercase */
+    padding: 8px 16px !important;
+}
+
+.selectedTab {
+    color: var(--color-primary) !important;
+}

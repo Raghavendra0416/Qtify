@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500px;
+    background-color: white;
+}
+    
+.search {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+.searchButton {
+    background: transparent;
+    border: none;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.searchButton img {
+    width: 20px;
+    height: 20px;
+}
+
+.listElement {
+    padding: 10px 14px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+
+.albumTitle {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.albumArtists {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}

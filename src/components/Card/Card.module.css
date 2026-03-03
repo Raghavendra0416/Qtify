@@ -1,0 +1,60 @@
+.card {
+    width: 160px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.cardImage {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Album name overlaid on bottom of image */
+.cardTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: 0 8px;
+    margin: 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* White footer strip */
+.cardFooter {
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Black pill badge */
+.followsBadge {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+/* Title below the card */
+.cardLabel {
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    margin: 8px 0 0 0;
+}
